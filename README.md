@@ -1,40 +1,45 @@
 # Bring Your umbrella
+
 #### _An app which sends a phone or email notification at a given time, telling you if you should bring your umbrella to work (e.g., if it is going to rain in your area that day)_
-***
-<strong>What is the problem:
+
+<strong>What is the problem:</strong>
+
 * Having to remember to consult multiple apps in the morning before going out is replaced by receiving one concise message with the information which the user desires, daily, at a time of their choosing.
 
-<strong>Who is the audience:
+<strong>Who is the audience:</strong>
+
 * Anyone who lives in places like Amsterdam with changeable weather and frequent rain.
 
-<strong>Specific goals:
+<strong>Specific goals:</strong>
+
 * Use an API with high quality information
 * Enable users to receive email and sms messages
 * Message users based on their choice of time, location and information
 * Present data in a clear, user friendly manner
 
-<strong>The business:
+<strong>The business:</strong>
 
 * A free to use app which may be sold to an interested party
 * Potential to introduce ads
 * Costs consist of development and upkeep, and API fees if demand reaches above x requests per day.
 
-<strong>The competition:
+<strong>The competition:</strong>
 
 * A number of weather apps competing for accuracy.
 * This app will provide clear oversight in the morning to prepare for the day because people dress for the day in the morning and often don't get back until the afternoon, so weather alerts at the time when the rain begins is not useful.
 * In Amsterdam there is high demand and competition in apps relating to weather and rain.
 
-<strong>Technical specifications:
+<strong>Technical specifications:</strong>
 
 * Database to store single user table to store data including: Name, email, phone number, location, time of notification, choice between email or text message.
 * A home page which displays the weather forecast for any searched city
 * Register - to fill the Database and sign up for notifications
 * Account details page to update database information and notification settings
 
-*** Challenge will be to combine the weather API and notification sending.
+Challenge will be to combine the weather API and notification sending.
 
-<strong>Timeline
+<strong>Timeline</strong>
+
 1. Choose API, libraries and packages
 2. Construct the basic shell of the website including ejs pages and base routing
 3. Set up the weather API and be able to search and receive information
